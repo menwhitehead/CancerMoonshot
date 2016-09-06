@@ -129,6 +129,7 @@ function clearResults() {
 function runQuery() {
     var keyword = document.getElementById("query").value;
     keyword = keyword.trim();
+    document.getElementById("query").value = keyword;
     if (keyword in keywords) {
 	var base_path = "viz_images/" + keyword;
 	var img_path = base_path + ".png";
