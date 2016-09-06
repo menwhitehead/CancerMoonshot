@@ -1,0 +1,16 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/jcanvas.min.js"></script>
+<script src="js/papaparse.min.js"></script>
+
+
+
+<body onload='document.getElementById("query").focus();'>
+
+<center>
+
+<input type="text" name="query" id="query" value="" onkeydown = "if (event.keyCode == 13) document.getElementById('searchbutton').click()">
+<button style="font-size: 16px;" id="searchbutton" onclick="runQuery();">Search</button>
+<div style="height:40px;" id="patent">Loading patent metadata...please wait</div>
+<canvas id="main" height="600" width="800"></canvas>
+
+<script src="js/moonshot.js"></script>
