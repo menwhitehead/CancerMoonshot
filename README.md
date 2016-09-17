@@ -13,3 +13,8 @@ The backend code performs the clusterings and generates the corresponding images
 Visualization code is in the Javascript (js) directory.  This code just loads the pre-generated t-SNE clustering images and adds interactivity.
 
 The viz_images directory shows a few example images along with their data files used to provide interactivity with mouse clicks.
+
+Reference-style: 
+![alt text][logo]
+
+[logo]: http://cs.coloradocollege.edu/~mwhitehead/CancerMoonshot/viz_images/cell.png "Visualization for Patents matching CELL"
