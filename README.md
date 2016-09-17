@@ -14,7 +14,5 @@ Visualization code is in the Javascript (js) directory.  This code just loads th
 
 The viz_images directory shows a few example images along with their data files used to provide interactivity with mouse clicks.
 
-Reference-style: 
 ![alt text][logo]
-
 [logo]: http://cs.coloradocollege.edu/~mwhitehead/CancerMoonshot/viz_images/cell.png "Visualization for Patents matching CELL"
