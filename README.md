@@ -1,4 +1,4 @@
-# CancerMoonshot
+# A Tool for Visualizing and Analyzing Relationships among Cancer-Related Patents
 
 This repository contains supporting code for our USPTO Cancer Moonshot Challenge entry.
 
